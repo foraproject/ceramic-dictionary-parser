@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Jeswin Kumar",
+    "email": "jeswinpk@agilehead.com"
+  },
+  "name": "ceramic-dictionary-parser",
+  "version": "0.1.0",
+  "description": "Parse an Http Request Body and convert them into entities using Ceramic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeswin/ceramic-dictionary-parser.git"
+  },
+  "main": "lib/ceramic-dictionary-parser",
+  "dependencies": {
+      "sanitizer": "*"
+  },
+  "devDependencies": {
+    "istanbul-harmony": "0",
+    "mocha": "^2.0.0"
+  },
+  "engines": {
+    "node": ">= 0.11.9"
+  },
+  "keywords": [
+    "serialization"
+  ],
+  "license": "GPL-3.0+"
+}
